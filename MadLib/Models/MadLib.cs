@@ -12,17 +12,17 @@ public class MadLibVariables {
     public string CosmosNoun {get; set;}
     public string PluralNoun {get; set;}
     
-    public MadLibVariables(string femaleName, string planetName, string naturalEventPlural, string pastTenseVerb, string alienNoun, string alienAdjective, string triumphAdjective, string dreamVerb, string cosmosNoun, string pluralNoun) {
-        FemaleName = femaleName;
-        PlanetName = planetName;
-        NaturalEventPlural = naturalEventPlural;
-        PastTenseVerb = pastTenseVerb;
-        AlienNoun = alienNoun;
-        AlienAdjective = alienAdjective;
-        TriumphAdjective = triumphAdjective;
-        DreamVerb = dreamVerb;
-        CosmosNoun = cosmosNoun;
-        PluralNoun = pluralNoun;
-    } 
+    // public MadLibVariables(string femaleName, string planetName, string naturalEventPlural, string pastTenseVerb, string alienNoun, string alienAdjective, string triumphAdjective, string dreamVerb, string cosmosNoun, string pluralNoun) {
+    //     FemaleName = femaleName;
+    //     PlanetName = planetName;
+    //     NaturalEventPlural = naturalEventPlural;
+    //     PastTenseVerb = pastTenseVerb;
+    //     AlienNoun = alienNoun;
+    //     AlienAdjective = alienAdjective;
+    //     TriumphAdjective = triumphAdjective;
+    //     DreamVerb = dreamVerb;
+    //     CosmosNoun = cosmosNoun;
+    //     PluralNoun = pluralNoun;
+    // } 
 
 }
