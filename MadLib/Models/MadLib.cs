@@ -3,7 +3,7 @@ namespace MadLib.Models;
 public class MadLibVariables {
     public string FemaleName { get; set;} 
     public string PlanetName { get; set;} 
-    public string NaturalEvent {get; set;}
+    public string NaturalEventPlural {get; set;}
     public string PastTenseVerb {get; set;}
     public string AlienNoun {get; set;}
     public string AlienAdjective {get; set;}
@@ -12,10 +12,10 @@ public class MadLibVariables {
     public string CosmosNoun {get; set;}
     public string PluralNoun {get; set;}
     
-    public MadLibVariables(string femaleName, string planetName, string naturalEvent, string pastTenseVerb, string alienNoun, string alienAdjective, string triumphAdjective, string dreamVerb, string cosmosNoun, string pluralNoun) {
+    public MadLibVariables(string femaleName, string planetName, string naturalEventPlural, string pastTenseVerb, string alienNoun, string alienAdjective, string triumphAdjective, string dreamVerb, string cosmosNoun, string pluralNoun) {
         FemaleName = femaleName;
         PlanetName = planetName;
-        NaturalEvent = naturalEvent;
+        NaturalEventPlural = naturalEventPlural;
         PastTenseVerb = pastTenseVerb;
         AlienNoun = alienNoun;
         AlienAdjective = alienAdjective;
