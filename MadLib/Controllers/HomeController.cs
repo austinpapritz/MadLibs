@@ -14,14 +14,14 @@ public class HomeController : Controller
     }
 
     [Route("/erikmadlib")]
-    public ActionResult ErikMadLibResults() {
-      return View();
+    public ActionResult ErikMadLibResults(string dummyName) {
+     ErikMadLibVariables newErik = new ErikMadLibVariables( dummyName );
+      return View(newErik);
     }
 
     [Route("/erikform")]
     public ActionResult ErikForm() {
-       ErikMadLibVariables newErik = new ErikMadLibVariables("NotErik");
-        return View(newErik);
+        return View();
     }
     
 
