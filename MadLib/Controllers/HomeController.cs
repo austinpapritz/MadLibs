@@ -20,7 +20,10 @@ public class HomeController : Controller
 
     [Route("/erikform")]
     public ActionResult ErikForm() {
-        return View();
+       ErikMadLibVariables newErik = new ErikMadLibVariables("NotErik");
+        return View(newErik);
     }
+    
+
 
   }
