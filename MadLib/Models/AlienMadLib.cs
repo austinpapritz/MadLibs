@@ -1,6 +1,6 @@
 namespace MadLib.Models;
 
-public class MadLibVariables {
+public class AlienMadLibVariables {
     public string FemaleName { get; set;} 
     public string PlanetName { get; set;} 
     public string NaturalEventPlural {get; set;}

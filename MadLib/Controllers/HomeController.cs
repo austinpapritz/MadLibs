@@ -3,15 +3,24 @@ using Microsoft.AspNetCore.Mvc;
 
 public class HomeController : Controller
   {
-
-
-    [Route("/madlib")]
-    public ActionResult MadLibResults(MadLibVariables args) {
+    [Route("/alienmadlib")]
+    public ActionResult AlienMadLibResults(AlienMadLibVariables args) {
       return View(args);
     }
 
-    [Route("/")]
-    public ActionResult Form() {
+    [Route("/alienform")]
+    public ActionResult AlienForm() {
       return View();
     }
+
+    [Route("/erikmadlib")]
+    public ActionResult ErikMadLibResults() {
+      return View();
+    }
+
+    [Route("/erikform")]
+    public ActionResult ErikForm() {
+        return View();
+    }
+
   }
