@@ -11,7 +11,10 @@
   </head>
   <body>
     <h1>Fill in prompts below</h1>
-    <form>Madlib</form>
-    <input name="noun" />
+    <form action="/madlib" method="post">
+     <label for="noun">Enter an noun</label>
+     <input id="noun" name="noun" type="text">
+     <button type="submit">Go!</button>
+    </form>
   </body>
 </html>

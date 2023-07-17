@@ -4,11 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 public class HomeController : Controller
   {
     [Route("/madlib")]
-    public ActionResult MadLibResults() {
-      MadLibVariables newMadLib = new MadLibVariables();
-      newMadLib.Noun = "fireman";
-      newMadLib.Verb = "burning";
-      newMadLib.Place = "house";
+    public ActionResult MadLibResults(string noun) {
+      MadLibVariables newMadLib = new MadLibVariables(noun);
       return View(newMadLib);
     }
 
